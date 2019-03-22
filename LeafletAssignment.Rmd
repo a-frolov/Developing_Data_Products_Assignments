@@ -11,10 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Assignment Description
 
-The goal of this assignment is to create a web page using R Markdown that featurhes a map created with Leaflet. 
+The goal of this assignment is to create a web page, using R Markdown, that featurhes a map created with Leaflet. 
 
-The created webpage sould be hosted on either GitHub Pages, RPubs, or NeoCities. The page should contain the date, and a map created with Leaflet. 
+The created webpage sould be hosted on either GitHub Pages, RPubs, or NeoCities. The page should contain the date, and a map, created with Leaflet. 
 
+## Last Updated
+`r Sys.Date()`
 
 ## Assignment Solution
 
