@@ -1,0 +1,34 @@
+---
+title: "LeafletAssignment"
+author: "Angela Frolov"
+date: "March 22, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment Description
+
+The goal of this assignment is to create a web page using R Markdown that featurhes a map created with Leaflet. 
+
+The created webpage sould be hosted on either GitHub Pages, RPubs, or NeoCities. The page should contain the date, and a map created with Leaflet. 
+
+
+## Assignment Solution
+
+``` {r map}
+library(leaflet)
+  my_map <-leaflet()%>%
+    addTiles()%>%
+    addMarkers(lat=14.527283, lng=-61.087713,
+               popup = "Anse Noire. Black sand, swimming with turtles")%>%
+    addMarkers(lat=14.402728, lng=-60.879156,
+               popup = "Grand Anse des Salines. The best beach on the island!")
+  
+my_map
+
+```
+
+
